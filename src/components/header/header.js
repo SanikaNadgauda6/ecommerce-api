@@ -15,7 +15,7 @@ const Header = () => {
                 </ul>
 
                 <div className="profile">Your Name</div>
-
+                
             </div>
         </>
   )
