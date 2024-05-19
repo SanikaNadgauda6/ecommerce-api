@@ -1,6 +1,6 @@
 {
   "products": [
-    { "id": 1, "name": "Laptop", "description": "A high performance laptop", "price": 999.99, "categoryId": 1, "stock": 50 },
+    { "id": 1, "name": "Laptop", "description": "A high performance laptop", "price": 999.99, "categoryId": 1, "stock": 50, "img":"https://tse4.mm.bing.net/th?id=OIP.OU1CoSplSgGv9VpKxYneSAHaFc&pid=Api&P=0&h=180" },
     { "id": 2, "name": "Smartphone", "description": "Latest model smartphone", "price": 699.99, "categoryId": 2, "stock": 200 },
     { "id": 3, "name": "Headphones", "description": "Noise-cancelling headphones", "price": 199.99, "categoryId": 3, "stock": 150 },
     { "id": 4, "name": "Smartwatch", "description": "Smartwatch with health tracking", "price": 299.99, "categoryId": 2, "stock": 100 },
