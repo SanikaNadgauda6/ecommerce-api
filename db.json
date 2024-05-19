@@ -29,27 +29,7 @@
     { "id": 27, "name": "Toaster", "description": "4-slice toaster", "price": 39.99, "categoryId": 12, "stock": 200 },
     { "id": 28, "name": "Air Fryer", "description": "Digital air fryer", "price": 129.99, "categoryId": 12, "stock": 100 },
     { "id": 29, "name": "Rice Cooker", "description": "Multi-function rice cooker", "price": 79.99, "categoryId": 12, "stock": 60 },
-    { "id": 30, "name": "Slow Cooker", "description": "Programmable slow cooker", "price": 69.99, "categoryId": 12, "stock": 90 },
-    { "id": 31, "name": "Electric Grill", "description": "Indoor electric grill", "price": 89.99, "categoryId": 12, "stock": 50 },
-    { "id": 32, "name": "Soundbar", "description": "Bluetooth soundbar", "price": 199.99, "categoryId": 3, "stock": 120 },
-    { "id": 33, "name": "Smart Doorbell", "description": "Video doorbell with WiFi", "price": 149.99, "categoryId": 10, "stock": 70 },
-    { "id": 34, "name": "Security Camera", "description": "Wireless security camera", "price": 199.99, "categoryId": 10, "stock": 80 },
-    { "id": 35, "name": "Water Heater", "description": "Instant water heater", "price": 249.99, "categoryId": 13, "stock": 30 },
-    { "id": 36, "name": "Dishwasher", "description": "Energy-efficient dishwasher", "price": 499.99, "categoryId": 12, "stock": 20 },
-    { "id": 37, "name": "Refrigerator", "description": "Double-door refrigerator", "price": 999.99, "categoryId": 12, "stock": 10 },
-    { "id": 38, "name": "Washing Machine", "description": "Front-load washing machine", "price": 799.99, "categoryId": 13, "stock": 15 },
-    { "id": 39, "name": "Dryer", "description": "Electric clothes dryer", "price": 599.99, "categoryId": 13, "stock": 15 },
-    { "id": 40, "name": "Electric Shaver", "description": "Rechargeable electric shaver", "price": 59.99, "categoryId": 11, "stock": 100 },
-    { "id": 41, "name": "Smart Thermostat", "description": "WiFi-enabled smart thermostat", "price": 199.99, "categoryId": 10, "stock": 50 },
-    { "id": 42, "name": "Ceiling Fan", "description": "Remote-controlled ceiling fan", "price": 149.99, "categoryId": 13, "stock": 40 },
-    { "id": 43, "name": "Portable AC", "description": "Portable air conditioner", "price": 399.99, "categoryId": 13, "stock": 20 },
-    { "id": 44, "name": "Electric Scooter", "description": "Foldable electric scooter", "price": 299.99, "categoryId": 14, "stock": 30 },
-    { "id": 45, "name": "Hoverboard", "description": "Self-balancing hoverboard", "price": 199.99, "categoryId": 14, "stock": 40 },
-    { "id": 46, "name": "Electric Bicycle", "description": "Electric-assist bicycle", "price": 999.99, "categoryId": 14, "stock": 10 },
-    { "id": 47, "name": "Cordless Drill", "description": "18V cordless drill", "price": 89.99, "categoryId": 15, "stock": 100 },
-    { "id": 48, "name": "Tool Set", "description": "108-piece tool set", "price": 129.99, "categoryId": 15, "stock": 50 },
-    { "id": 49, "name": "Lawn Mower", "description": "Battery-powered lawn mower", "price": 299.99, "categoryId": 16, "stock": 20 },
-    { "id": 50, "name": "Leaf Blower", "description": "Cordless leaf blower", "price": 149.99, "categoryId": 16, "stock": 40 }
+    { "id": 30, "name": "Slow Cooker", "description": "Programmable slow cooker", "price": 69.99, "categoryId": 12, "stock": 90 }
   ],
   "categories": [
     { "id": 1, "name": "Electronics" },
@@ -68,29 +48,5 @@
     { "id": 14, "name": "Outdoor Equipment" },
     { "id": 15, "name": "Tools" },
     { "id": 16, "name": "Garden Equipment" }
-  ],
-  "users": [
-    { "id": 1, "name": "John Doe", "email": "john.doe@example.com", "password": "password123" },
-    { "id": 2, "name": "Jane Smith", "email": "jane.smith@example.com", "password": "password456" },
-    { "id": 3, "name": "Bob Johnson", "email": "bob.johnson@example.com", "password": "password789" },
-    { "id": 4, "name": "Alice Brown", "email": "alice.brown@example.com", "password": "password321" },
-    { "id": 5, "name": "Charlie Davis", "email": "charlie.davis@example.com", "password": "password654" },
-    { "id": 6, "name": "David Evans", "email": "david.evans@example.com", "password": "password987" },
-    { "id": 7, "name": "Eve Harris", "email": "eve.harris@example.com", "password": "password432" },
-    { "id": 8, "name": "Frank Green", "email": "frank.green@example.com", "password": "password876" },
-    { "id": 9, "name": "Grace Hall", "email": "grace.hall@example.com", "password": "password543" },
-    { "id": 10, "name": "Hank Wilson", "email": "hank.wilson@example.com", "password": "password210" }
-  ],
-  "orders": [
-    { "id": 1, "userId": 1, "productIds": [1, 2], "total": 1699.98, "status": "shipped" },
-    { "id": 2, "userId": 2, "productIds": [3], "total": 199.99, "status": "processing" },
-    { "id": 3, "userId": 3, "productIds": [4, 5], "total": 799.98, "status": "delivered" },
-    { "id": 4, "userId": 4, "productIds": [6], "total": 399.99, "status": "shipped" },
-    { "id": 5, "userId": 5, "productIds": [7, 8, 9], "total": 239.97, "status": "cancelled" },
-    { "id": 6, "userId": 6, "productIds": [10], "total": 299.99, "status": "processing" },
-    { "id": 7, "userId": 7, "productIds": [11, 12], "total": 279.98, "status": "delivered" },
-    { "id": 8, "userId": 8, "productIds": [13, 14, 15], "total": 269.97, "status": "shipped" },
-    { "id": 9, "userId": 9, "productIds": [16], "total": 499.99, "status": "cancelled" },
-    { "id": 10, "userId": 10, "productIds": [17, 18], "total": 129.98, "status": "processing" }
   ]
 }
