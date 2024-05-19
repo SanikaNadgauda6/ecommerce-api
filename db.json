@@ -1,35 +1,64 @@
 {
   "products": [
     { "id": 1, "name": "Laptop", "description": "A high performance laptop", "price": 999.99, "categoryId": 1, "stock": 50, "img":"https://tse4.mm.bing.net/th?id=OIP.OU1CoSplSgGv9VpKxYneSAHaFc&pid=Api&P=0&h=180" },
-    { "id": 2, "name": "Smartphone", "description": "Latest model smartphone", "price": 699.99, "categoryId": 2, "stock": 200 },
-    { "id": 3, "name": "Headphones", "description": "Noise-cancelling headphones", "price": 199.99, "categoryId": 3, "stock": 150 },
-    { "id": 4, "name": "Smartwatch", "description": "Smartwatch with health tracking", "price": 299.99, "categoryId": 2, "stock": 100 },
-    { "id": 5, "name": "Tablet", "description": "High-resolution display tablet", "price": 499.99, "categoryId": 1, "stock": 80 },
-    { "id": 6, "name": "Gaming Console", "description": "Next-gen gaming console", "price": 399.99, "categoryId": 4, "stock": 60 },
-    { "id": 7, "name": "Bluetooth Speaker", "description": "Portable Bluetooth speaker", "price": 99.99, "categoryId": 3, "stock": 200 },
-    { "id": 8, "name": "Wireless Mouse", "description": "Ergonomic wireless mouse", "price": 49.99, "categoryId": 5, "stock": 300 },
-    { "id": 9, "name": "Keyboard", "description": "Mechanical keyboard", "price": 89.99, "categoryId": 5, "stock": 150 },
-    { "id": 10, "name": "Monitor", "description": "27-inch 4K monitor", "price": 299.99, "categoryId": 1, "stock": 100 },
-    { "id": 11, "name": "Printer", "description": "Wireless color printer", "price": 149.99, "categoryId": 6, "stock": 75 },
-    { "id": 12, "name": "Router", "description": "High-speed WiFi router", "price": 129.99, "categoryId": 7, "stock": 50 },
-    { "id": 13, "name": "External Hard Drive", "description": "1TB external hard drive", "price": 79.99, "categoryId": 8, "stock": 200 },
-    { "id": 14, "name": "Webcam", "description": "1080p HD webcam", "price": 59.99, "categoryId": 5, "stock": 120 },
-    { "id": 15, "name": "Fitness Tracker", "description": "Wearable fitness tracker", "price": 129.99, "categoryId": 2, "stock": 180 },
-    { "id": 16, "name": "Drone", "description": "Camera drone with GPS", "price": 499.99, "categoryId": 9, "stock": 50 },
-    { "id": 17, "name": "Smart Home Hub", "description": "Voice-controlled smart home hub", "price": 99.99, "categoryId": 10, "stock": 90 },
-    { "id": 18, "name": "Smart Light Bulb", "description": "WiFi-enabled smart light bulb", "price": 29.99, "categoryId": 10, "stock": 300 },
-    { "id": 19, "name": "Electric Toothbrush", "description": "Rechargeable electric toothbrush", "price": 49.99, "categoryId": 11, "stock": 150 },
-    { "id": 20, "name": "Hair Dryer", "description": "Professional hair dryer", "price": 79.99, "categoryId": 11, "stock": 200 },
-    { "id": 21, "name": "Microwave Oven", "description": "Compact microwave oven", "price": 199.99, "categoryId": 12, "stock": 60 },
-    { "id": 22, "name": "Blender", "description": "High-speed blender", "price": 89.99, "categoryId": 12, "stock": 90 },
-    { "id": 23, "name": "Coffee Maker", "description": "Automatic coffee maker", "price": 99.99, "categoryId": 12, "stock": 80 },
-    { "id": 24, "name": "Vacuum Cleaner", "description": "Robotic vacuum cleaner", "price": 299.99, "categoryId": 13, "stock": 40 },
-    { "id": 25, "name": "Air Purifier", "description": "HEPA air purifier", "price": 149.99, "categoryId": 13, "stock": 70 },
-    { "id": 26, "name": "Electric Kettle", "description": "Stainless steel electric kettle", "price": 49.99, "categoryId": 12, "stock": 150 },
-    { "id": 27, "name": "Toaster", "description": "4-slice toaster", "price": 39.99, "categoryId": 12, "stock": 200 },
-    { "id": 28, "name": "Air Fryer", "description": "Digital air fryer", "price": 129.99, "categoryId": 12, "stock": 100 },
-    { "id": 29, "name": "Rice Cooker", "description": "Multi-function rice cooker", "price": 79.99, "categoryId": 12, "stock": 60 },
-    { "id": 30, "name": "Slow Cooker", "description": "Programmable slow cooker", "price": 69.99, "categoryId": 12, "stock": 90 }
+
+    { "id": 2, "name": "Smartphone", "description": "Latest model smartphone", "price": 699.99, "categoryId": 2, "stock": 200, "img": "https://tse4.mm.bing.net/th?id=OIP.L_IBmQ5JmWqU-k1Ezm9DjgHaFj&pid=Api&P=0&h=180" },
+
+    { "id": 3, "name": "Headphones", "description": "Noise-cancelling headphones", "price": 199.99, "categoryId": 3, "stock": 150 , "img": "https://tse3.mm.bing.net/th?id=OIP.9rv1g1o8ogZaeDCHhx_KgQAAAA&pid=Api&P=0&h=180"  },
+
+    { "id": 4, "name": "Smartwatch", "description": "Smartwatch with health tracking", "price": 299.99, "categoryId": 2, "stock": 100, "img": "https://tse4.mm.bing.net/th?id=OIP.Z7LjHH890V3HKOfnsPPJJQHaHa&pid=Api&P=0&h=180"  },
+
+    { "id": 5, "name": "Tablet", "description": "High-resolution display tablet", "price": 499.99, "categoryId": 1, "stock": 80, "img": "https://tse2.mm.bing.net/th?id=OIP.pwNP1BQakxHhHXOimPgL9AHaHa&pid=Api&P=0&h=180"  },
+
+    { "id": 6, "name": "Gaming Console", "description": "Next-gen gaming console", "price": 399.99, "categoryId": 4, "stock": 60, "img": "https://tse4.mm.bing.net/th?id=OIP.DeO4sGev2N1hskLk-4545wAAAA&pid=Api&P=0&h=180"  },
+
+    { "id": 7, "name": "Bluetooth Speaker", "description": "Portable Bluetooth speaker", "price": 99.99, "categoryId": 3, "stock": 200, "img": "https://tse4.mm.bing.net/th?id=OIP.ME7w8biTCoGCGAD20L1S6wHaHX&pid=Api&P=0&h=180"  },
+
+    { "id": 8, "name": "Wireless Mouse", "description": "Ergonomic wireless mouse", "price": 49.99, "categoryId": 5, "stock": 300, "img": "https://tse1.mm.bing.net/th?id=OIP.XdAmIi0YYAlPMKAmxUrlOwHaHa&pid=Api&P=0&h=180"  },
+
+    { "id": 9, "name": "Keyboard", "description": "Mechanical keyboard", "price": 89.99, "categoryId": 5, "stock": 150, "img": "https://tse3.mm.bing.net/th?id=OIP.8vs3qFJLl_fiMfJe0c6DJAHaEK&pid=Api&P=0&h=180"  },
+
+    { "id": 10, "name": "Monitor", "description": "27-inch 4K monitor", "price": 299.99, "categoryId": 1, "stock": 100, "img": "https://tse1.mm.bing.net/th?id=OIP.EllAOQR-uM5qYV42tejObAHaFj&pid=Api&P=0&h=180"  },
+
+    { "id": 11, "name": "Printer", "description": "Wireless color printer", "price": 149.99, "categoryId": 6, "stock": 75, "img": "https://tse1.mm.bing.net/th?id=OIP.4WEQLu2YIxRTk_zM4R2zvgHaHa&pid=Api&P=0&h=180"  },
+
+    { "id": 12, "name": "Router", "description": "High-speed WiFi router", "price": 129.99, "categoryId": 7, "stock": 50, "img": "https://tse1.mm.bing.net/th?id=OIP.Z9atP8BGFbkhlZV0L0OZ6QAAAA&pid=Api&P=0&h=180"  },
+
+    { "id": 13, "name": "External Hard Drive", "description": "1TB external hard drive", "price": 79.99, "categoryId": 8, "stock": 200 , "img": "https://tse1.mm.bing.net/th?id=OIP.qyE6FIrSMo2YgOMNFrwQOwHaGk&pid=Api&P=0&h=180" },
+
+    { "id": 14, "name": "Webcam", "description": "1080p HD webcam", "price": 59.99, "categoryId": 5, "stock": 120 , "img": "https://tse1.mm.bing.net/th?id=OIP.BSNp1bn072WANL8IW_LnbAHaGs&pid=Api&P=0&h=180" },
+
+    { "id": 15, "name": "Fitness Tracker", "description": "Wearable fitness tracker", "price": 129.99, "categoryId": 2, "stock": 180, "img": "https://tse1.mm.bing.net/th?id=OIP.Xe1TVi4EpHXyrS1QOkJwYwHaEK&pid=Api&P=0&h=180"  },
+
+    { "id": 16, "name": "Drone", "description": "Camera drone with GPS", "price": 499.99, "categoryId": 9, "stock": 50, "img": "https://tse3.mm.bing.net/th?id=OIP.Q6fnIG8-dn-ErL-RwnK46AHaD5&pid=Api&P=0&h=180"  },
+
+    { "id": 17, "name": "Smart Home Hub", "description": "Voice-controlled smart home hub", "price": 99.99, "categoryId": 10, "stock": 90, "img": "https://tse3.mm.bing.net/th?id=OIP.fE7-8_2iRNfzHWcnCnOqIgHaEt&pid=Api&P=0&h=180"  },
+
+    { "id": 18, "name": "Smart Light Bulb", "description": "WiFi-enabled smart light bulb", "price": 29.99, "categoryId": 10, "stock": 300, "img": "https://tse2.mm.bing.net/th?id=OIP.WtR4oA7jfj6O7kJYCVGtDQHaHa&pid=Api&P=0&h=180"  },
+
+    { "id": 19, "name": "Electric Toothbrush", "description": "Rechargeable electric toothbrush", "price": 49.99, "categoryId": 11, "stock": 150, "img": "https://tse1.mm.bing.net/th?id=OIP.WTm3lA-Yc3_QVSPgce1VbgHaIl&pid=Api&P=0&h=180"  },
+
+    { "id": 20, "name": "Hair Dryer", "description": "Professional hair dryer", "price": 79.99, "categoryId": 11, "stock": 200, "img": "https://tse2.mm.bing.net/th?id=OIP.UpkjYZ7l5vSCGEajDWMdlQHaHa&pid=Api&P=0&h=180"  },
+
+    { "id": 21, "name": "Microwave Oven", "description": "Compact microwave oven", "price": 199.99, "categoryId": 12, "stock": 60, "img": "https://tse4.mm.bing.net/th?id=OIP.HnMeRy10r7Yn97HfHVoUmwHaEk&pid=Api&P=0&h=180"  },
+
+    { "id": 22, "name": "Blender", "description": "High-speed blender", "price": 89.99, "categoryId": 12, "stock": 90, "img": "https://tse1.mm.bing.net/th?id=OIP.pu82MEepCxyUq3US0dOUugHaH0&pid=Api&P=0&h=180"  },
+
+    { "id": 23, "name": "Coffee Maker", "description": "Automatic coffee maker", "price": 99.99, "categoryId": 12, "stock": 80, "img": "https://tse3.mm.bing.net/th?id=OIP.0d-DQXu0Po9mIEePuK-w6gAAAA&pid=Api&P=0&h=180"  },
+
+    { "id": 24, "name": "Vacuum Cleaner", "description": "Robotic vacuum cleaner", "price": 299.99, "categoryId": 13, "stock": 40, "img": "https://tse4.mm.bing.net/th?id=OIP.9s0rY8ZnhwnXHenSepD0ewHaHa&pid=Api&P=0&h=180"  },
+
+    { "id": 25, "name": "Air Purifier", "description": "HEPA air purifier", "price": 149.99, "categoryId": 13, "stock": 70 , "img": "https://tse4.mm.bing.net/th?id=OIP.VRyvZqK2LC3GVLdXhK9agAHaIL&pid=Api&P=0&h=180" },
+
+    { "id": 26, "name": "Electric Kettle", "description": "Stainless steel electric kettle", "price": 49.99, "categoryId": 12, "stock": 150, "img": "https://tse4.mm.bing.net/th?id=OIP.1JdfSvzZsVzW3-7tIsrDkAHaJA&pid=Api&P=0&h=180"  },
+
+    { "id": 27, "name": "Toaster", "description": "4-slice toaster", "price": 39.99, "categoryId": 12, "stock": 200, "img": "https://tse1.mm.bing.net/th?id=OIP.BqenuVmRQeSv9QCA3m-SNAHaGZ&pid=Api&P=0&h=180"  },
+
+    { "id": 28, "name": "Air Fryer", "description": "Digital air fryer", "price": 129.99, "categoryId": 12, "stock": 100, "img": "https://tse1.mm.bing.net/th?id=OIP.jLWc0HSRccmKr9LY1SNViwHaII&pid=Api&P=0&h=180"  },
+
+    { "id": 29, "name": "Rice Cooker", "description": "Multi-function rice cooker", "price": 79.99, "categoryId": 12, "stock": 60, "img": "https://tse3.mm.bing.net/th?id=OIP.TD5iyMWtdPDvQP67ytAXrQHaHa&pid=Api&P=0&h=180"  },
+
+    { "id": 30, "name": "Slow Cooker", "description": "Programmable slow cooker", "price": 69.99, "categoryId": 12, "stock": 90, "img": "https://tse1.mm.bing.net/th?id=OIP.1zgYe2_X1ITAJu2IF8sPnwHaG4&pid=Api&P=0&h=180"  }
   ],
   "categories": [
     { "id": 1, "name": "Electronics" },
