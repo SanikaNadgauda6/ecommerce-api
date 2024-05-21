@@ -15,6 +15,7 @@ const ProductForm = () => {
   const [alert, setAlert] = useState(null);
   const dispatch = useDispatch();
 
+  //Adding the new details to dispatch
   const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(addProduct({ ...product, price: parseFloat(product.price) }));

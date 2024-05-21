@@ -12,6 +12,7 @@ const ProductList = () => {
   const dispatch = useDispatch();
   const products = useSelector(state => state.products);
 
+  //fetching the data from api & dispatching it.
   useEffect(() => {
     if (products.length === 0) { 
       fetch('https://my-json-server.typicode.com/SanikaNadgauda6/ecommerce-api/products')
@@ -22,11 +23,15 @@ const ProductList = () => {
   }, [dispatch, products.length]); 
   console.log("These are the products", products);
 
+
+  //delete function
   const handleDelete = (id) => {
     dispatch(deleteProduct(id));
     setAlert({ type: 'success', message: 'Product deleted successfully' });
   };
 
+
+  //Add to cart function
   const handleAddToCart = (product) => {
     dispatch(addToCart(product));
     setAlert({ type: 'success', message: 'Product added to cart' });

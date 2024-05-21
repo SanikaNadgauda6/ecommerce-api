@@ -14,17 +14,22 @@ const ProductDetail = () => {
   const [alert, setAlert] = useState(null);
   const navigate = useNavigate();
 
+  //geting the product of which the details has to be changed.
   useEffect(() => {
     const foundProduct = products.find(p => p.id === parseInt(id));
     if (foundProduct) setProduct(foundProduct);
   }, [id, products]);
 
+
+  //handle save after editing
   const handleSave = () => {
     dispatch(updateProduct(product));
     setIsEditing(false);
     setAlert({ type: 'success', message: 'Product updated successfully' });
   };
 
+
+  //add to cart
   const handleAddToCart = () => {
     dispatch(addToCart(product));
     setAlert({ type: 'success', message: 'Product added to cart' });
