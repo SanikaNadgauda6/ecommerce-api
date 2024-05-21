@@ -1,0 +1,98 @@
+
+.product-detail-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.product-detail-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.product-detail-name {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-detail-description {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.product-detail-price {
+    font-size: 1.25rem;
+    color: #ff6347;
+    margin-bottom: 1rem;
+}
+
+.product-detail-input,
+.product-detail-textarea,
+.product-detail-number {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.product-detail-button {
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-detail-button:hover {
+    background-color: #f0f0f0;
+}
+
+.product-detail-button:active {
+    background-color: #e0e0e0;
+}
+
+.product-detail-button-save {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.product-detail-button-save:hover {
+    background-color: #45a049;
+}
+
+.product-detail-button-save:active {
+    background-color: #3e8e41;
+}
+
+.product-detail-button-edit {
+    background-color: #008cba;
+    color: #fff;
+}
+
+.product-detail-button-edit:hover {
+    background-color: #007bb5;
+}
+
+.product-detail-button-edit:active {
+    background-color: #006ba1;
+}
+
+.product-detail-button-back {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.product-detail-button-back:hover {
+    background-color: #e53935;
+}
+
+.product-detail-button-back:active {
+    background-color: #d32f2f;
+}
